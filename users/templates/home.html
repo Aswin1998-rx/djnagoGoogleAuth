@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>django google sig in</title>
+</head>
+<body>
+{% load socialaccount %}
+<h2>Google login</h2>
+<a href="{% provider_login_url 'google' %}?next=/"> login with google</a>
+</body>
+</html>
